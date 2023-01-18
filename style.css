@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+
+body {
+  background-color: #222222;
+  font-family: "Titillium Web", Helvetica, sans-serif;
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 65px;
+}
+
+nav {
+  border-bottom: 1px solid #44d62c;
+}
+
+.hero {
+  background-image: url("images/razer-blade-16-18-homepage-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.text-decoration-none:hover {
+  text-decoration: underline !important;
+}
+
+footer .text-decoration-none:hover {
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+.text-success,
+.bi-chevron-right {
+  color: #44d62c !important;
+}
+
+.rounded-circle {
+  border: 2px solid;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.btn-outline-success:hover {
+  border-color: #44d62c !important;
+  background-color: unset;
+}
+
+.product {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.search-bar {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#product1 {
+  background-image: url("images/razer-hammerhead-hyperspeed-hero.jpg");
+}
+
+#product2 {
+  background-image: url("images/kiyo-pro-ultra-homepage-desktop.jpg");
+}
+
+#product3 {
+  background-image: url("images/new-year-gear-b-950x580-desktop.jpg");
+}
+
+#product4 {
+  background-image: url("images/enkipro-lamborghini-b-950x580-desktop.jpg");
+}
+
+#product5 {
+  background-image: url("images/razer-wolverine-v2-pro-black-white-b-950x580-desktop.jpg");
+}
+
+#product6 {
+  background-image: url("images/leviathanv2-pro-b-950x580-desktop.jpg");
+}
+
+#product7 {
+  background-image: url("images/razer-edge-b-950x580-desktop.jpg");
+}
+
+#product8 {
+  background-image: url("images/razer-blade-141517-b-950x580-desktop.jpg");
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.cart a:hover {
+  color: #44d62c !important;
+  background-color: unset !important;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+@media (max-width: 500px) {
+  .hero {
+    background-image: url("images/razer-blade-16-and-18-homepage-mobile2x.jpg");
+  }
+
+  #product1 {
+    background-image: url("images/razer-hammerhead-hyperspeed-playstation-homepage-mobile2x.jpg");
+  }
+
+  #product2 {
+    background-image: url("images/kiyo-pro-ultra-homepage-mobile2x.jpg");
+  }
+
+  #product3 {
+    background-image: url("images/new-year-gear-b-480x615-mobile.jpg");
+  }
+
+  #product4 {
+    background-image: url("images/enkipro-lamborghini-b-480x615-mobile.jpg");
+  }
+
+  #product5 {
+    background-image: url("images/razer-wolverine-v2-pro-black-white-b-480x615-mobile.jpg");
+  }
+
+  #product6 {
+    background-image: url("images/leviathanv2-pro-b-480x615-mobile.jpg");
+  }
+
+  #product7 {
+    background-image: url("images/razer-edge-b-480x615-mobile.jpg");
+  }
+
+  #product8 {
+    background-image: url("images/razer-blade-141517-b-480x615-mobile.jpg");
+  }
+}
